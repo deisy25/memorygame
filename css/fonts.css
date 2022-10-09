@@ -1,0 +1,24 @@
+@font-face{
+	font-family:'bigfish';
+	src:url('../fonts/Bigfish.ttf') format('truetype');
+}
+
+@font-face{
+	font-family:'KG The Last Time';
+	src:url('../fonts/KGTheLastTime.ttf') format('truetype');
+}
+
+@font-face{
+	font-family:'Kingthings Hand';
+	src:url('../fonts/Kingthings Hand.ttf') format('truetype');
+}
+
+@font-face{
+	font-family:'legothick';
+	src:url('../fonts/Legothick.ttf') format('truetype');
+}
+
+@font-face{
+	font-family:'Turtles';
+	src:url('../fonts/Turtles.otf') format('opentype');
+}

@@ -1,0 +1,241 @@
+a{
+  text-decoration: none;
+}
+
+body{
+  background: url("http://cdn.wallpapersafari.com/54/89/hjA3ge.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.game{
+  background: url("../img/lego.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container{
+  margin: 1em;
+}
+
+.container_game{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(50,30,30,0.7);
+}
+
+.instruction{
+  cursor:pointer;
+  background-color: #CD5C5C;
+  height: 45px;
+  width: 45px;
+  -moz-border-radius:45px;
+  -webkit-border-radius: 45px;
+  font-family: "bigfish", serif;
+  color:#660202;
+  font-size: 3em;
+  text-align: center;
+}
+
+.getstarted h4{
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  margin-top: 0.25em;
+}
+
+.getstarted ol{
+  color:white;
+}
+
+.close {
+    display: block;
+    border: none;
+    outline: none;
+    width: 1.25em;
+    height: 1.25em;
+    font-size: 2em;
+    background-color: #bc2a39;
+    color: #e7c0b9;
+    border-radius: 1em;
+    line-height: 0;
+
+    position: absolute;
+    top: 0.25em;
+    right: 0.25em;
+    font-family: 'KG The Last Time';
+}
+
+.title{
+  padding: 5em;
+  text-align: center;
+  color:white;
+}
+
+.title h5{
+  font-family: "Kingthings Hand", serif;
+  font-size: 3.5em;
+}
+
+.title h4{
+  font-family: "legothick", serif;
+  font-size: 4em;
+  margin-top: 0.2em;
+}
+
+.play, .about{
+  margin-top: 0.4em;
+  background-color: #793333;
+  font-family:"KG The Last Time", serif;
+  font-size: 2em;
+  color:#EDE4E4;
+  width:6em;
+  height:1.75em;
+  border-radius: 40px;
+}
+
+.play:hover, .about:hover{
+  background-color: #C8ACAC;
+  color:#321515;
+}
+
+.detail_instruction {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(30,30,30,0.8);
+}
+
+.getstarted {
+  display: block;
+  width: 400px;
+  height: 18em;
+  padding: 2em;
+  background-color: #580000;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+header{
+  margin: 1em;
+  height: 5%;
+}
+
+header .label_time, header .label_score{
+  font-family: "Turtles", serif;
+  color:#fcabab;
+  font-size: 2em;
+}
+
+header .label_time{
+  float:left;
+  width: 25%;
+}
+
+header .label_score{
+  float:left;
+  width:50%;
+  text-align: center;
+}
+
+header .exit{
+  cursor:pointer;
+  float:right;
+  width: 25%;
+  background-color: #CD5C5C;
+  height: 40px;
+  width: 40px;
+  -moz-border-radius:40px;
+  -webkit-border-radius: 40px;
+  font-family: 'KG The Last Time';
+  color:#660202;
+  font-size: 2.2em;
+  text-align: center;
+}
+
+#cards{
+	width:75em;
+  padding-left: 3em;
+	margin:0px auto;
+}
+
+#cards > img{
+	background:url(../img/back.jpg);
+  width:14.5%;
+  height: 15em;
+	margin:5px;
+	cursor:pointer;
+}
+
+.detail_clear, .detail_fail {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(30,30,30,0.8);
+}
+
+.stage_done {
+  display: block;
+  width: 30%;
+  height: 16em;
+  padding: 2em;
+  background-color: #580000;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.stage_fail {
+ display: block;
+ width: 30%;
+ height: 10em;
+ padding: 2em;
+ background-color: #580000;
+ position: absolute;
+ margin: auto;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+}
+
+.stage_done h4, .stage_fail h4{
+  text-align: center;
+  font-size: 3em;
+  font-family: "Turtles", serif;
+  color: #fcabab;
+}
+
+.stage_done h5, .stage_fail h5{
+  margin-top: 0.5em;
+  font-size: 2em;
+  font-family: "Turtles", serif;
+  color: #fcabab;
+}
+
+.stage_done .result, .stage_done .moves, .stage_fail .result{
+  margin-top: 0.5em;
+  font-size: 1em;
+  font-family: "Turtles", serif;
+  color: #fcabab;
+}
